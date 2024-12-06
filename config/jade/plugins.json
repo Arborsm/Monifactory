@@ -63,6 +63,13 @@
     "hud.status": true,
     "hud.contents": true
   },
+  "cobblemonintegrations": {
+    "healer": true,
+    "apricorn": true,
+    "fossil_analyzer": true,
+    "pokemon_entity": true,
+    "berry_bush": true
+  },
   "gtceu": {
     "primitive_pump": true,
     "auto_output_info": true,
@@ -144,6 +151,21 @@
     "hud.rgb16": true,
     "hud": true,
     "hud.redstone": true
+  },
+  "touhou_little_maid": {
+    "maid": true,
+    "shrine_lamp": true
+  },
+  "create": {
+    "filter": true,
+    "backtank_capacity": true,
+    "goggles.requires_goggles": true,
+    "goggles": false,
+    "blaze_burner": true,
+    "exact_block": true,
+    "crafting_blueprint": true,
+    "goggles.detailed": false,
+    "placard": true
   },
   "waystones": {
     "waystone": true

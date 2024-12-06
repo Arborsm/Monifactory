@@ -13,7 +13,7 @@ because the Infinity material had infinite mass.
 */
 GTCEuStartupEvents.registry('gtceu:element', event => {
     event.create('omnium', 130, 234, -1, null, 'Nm', false)
-    event.create('infinity', 168, 316, -1, null, '∞', false);
+    //event.create('infinity', 168, 316, -1, null, '∞', false);
     event.create('monium', 69, 420, -1, null, 'Mu', false);
     event.create('crystal_matrix', 6, 6, -1, null, 'C*', false);
 })
@@ -21,7 +21,7 @@ GTCEuStartupEvents.registry('gtceu:element', event => {
 // Omnium, Infinity, and Monium have animations and thus custom material icon sets.
 GTCEuStartupEvents.registry('gtceu:material_icon_set', event => {
     event.create('omnium').parent(GTMaterialIconSet.SHINY)
-    event.create('infinity').parent(GTMaterialIconSet.SHINY)
+    // event.create('infinity').parent(GTMaterialIconSet.SHINY)
     event.create('monium').parent(GTMaterialIconSet.SHINY)
 })
 

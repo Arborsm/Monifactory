@@ -109,3 +109,6 @@ config/darkmodeeverywhereshaders.json
 #Don't ignore the Create client config so we can remove the Main Menu config button
 #it gets in the way of the beautiful FancyMenu
 !/config/create-client.toml
+
+config/yes_steve_model/
+config/alexsmobs/
