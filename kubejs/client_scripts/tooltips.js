@@ -42,7 +42,7 @@ ItemEvents.tooltip(tooltip => {
     // Questbook
     tooltip.addAdvanced(`ftbquests:book`, (item, adv, text) => { text.add(2, Text.gray(Text.translatable('ftbquests.book.tooltip'))) })
 
-    // Redstone Clock 
+    // Redstone Clock
     tooltip.add('redstoneclock:redstone_clock', Text.translatable('redstoneclock.redstone_clock.tooltip'))
 
     // DML Data Model
@@ -68,7 +68,7 @@ ItemEvents.tooltip(tooltip => {
     tooltip.add('thermal:device_rock_gen', Text.translatable('thermal.device_rock_gen.tooltip'))
     tooltip.add('thermal:device_water_gen', Text.translatable('thermal.device_water_gen.tooltip'))
 
-    tooltip.add(['thermal:upgrade_augment_1', 'thermal:upgrade_augment_2', 'thermal:upgrade_augment_4', 'thermal:upgrade_augment_3', 'thermal:dynamo_output_augment'], Text.translatable('§athermal.emi.tooltip.'))
+    tooltip.add(['thermal:upgrade_augment_1', 'thermal:upgrade_augment_2', 'thermal:upgrade_augment_4', 'thermal:upgrade_augment_3', 'thermal:dynamo_output_augment'], Text.translatable('thermal.emi.tooltip.'))
 
     // Circuits
     tooltip.addAdvanced(`kubejs:matter_processor_mainframe`, (item, adv, text) => { text.add(1, rainbowifySingle(Text.translatable('item.kubejs.uev_tier_circuit'), Math.round(Client.lastNanoTime / 1000000000))) })
@@ -257,6 +257,7 @@ ItemEvents.tooltip(tooltip => {
         text.add(1, Text.translatable('chipped.workbenches.tooltip.1'))
         text.add(2, Text.translatable('chipped.workbenches.tooltip.2'))
     })
+    tooltip.add('chisel_chipped_integration:drill', Text.translatable('chipped.drill.tooltip'))
 
     // Note about PEX crafter speed
     tooltip.add([
@@ -265,7 +266,7 @@ ItemEvents.tooltip(tooltip => {
         'packagedexcrafting:ultimate_crafter',
         'packagedexexcrafting:epic_crafter'
         ], Text.translatable("packagedexcrafting.crafterspeed.tooltip"))
-    
+
     // Tempad
     if (Platform.isLoaded('tempad')) {
         tooltip.add('tempad:tempad', Text.translatable("tempad.tempad.tooltip"))

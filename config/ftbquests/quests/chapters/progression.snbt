@@ -778,13 +778,14 @@
 		{
 			dependencies: [
 				"3B3F46345D39CAE2"
-				"1C1B1E1BBFA079F5"
 				"544E87F5E356FE10"
 			]
 			description: [
 				"&6RTM Alloy&r is an alloy of &6Ruthenium&r, &6Tungsten&r and &6Molybdenum&r."
 				""
 				"This alloy is cooked in an &3Electric Blast Furnace&r and cooled in a &3Vacuum Freezer&r."
+				""
+				"&6Ruthenium&r can be processed from &6Laurite&r, or &6Platinum Group Sludge&r, if you wish to start that chain early."
 			]
 			disable_toast: true
 			id: "5D0A642048AF909B"
@@ -989,8 +990,11 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["6F5BB99060FF03AC"]
-			description: ["May be worth setting up a line for &9Multidimensional CPU Chip&r Processing."]
+			dependencies: [
+				"6F5BB99060FF03AC"
+				"5911900438648430"
+			]
+			description: ["This is the first circuit that requires &6Polyethyl Cyanoacrylate&r, so go check that out."]
 			id: "4EB9D1ADC4814330"
 			shape: "hexagon"
 			tasks: [{
@@ -1003,8 +1007,11 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["4612D36D22AB4B34"]
-			description: ["Some of the elements that can be found in &9Scrap Processing&r are used to create this, funny how the world works."]
+			dependencies: [
+				"4612D36D22AB4B34"
+				"7AF06CB391779388"
+			]
+			description: ["The first circuits to need &6Hyperdynamic RAM&r. You may need to ramp up &6Heart of A Universe&r production to produce all of the Universe-imbued Silicon!"]
 			id: "7704A934F89E4FD9"
 			shape: "hexagon"
 			tasks: [{
@@ -1021,11 +1028,7 @@
 				"4EB9D1ADC4814330"
 				"6F9041F256F517A3"
 			]
-			description: [
-				"These mainframes are far more expensive than previous circuit tiers, requiring silicon chips imbued with &6Hearts of the Universe&r."
-				""
-				"Don't let that discourage you, though, they also unlock many useful tools to add to your factory."
-			]
+			description: ["Your first &aUEV&r circuit. With this circuit tier, you have unlocked the door to technological marvels that bend the laws of reality."]
 			id: "07057CDE4E021BA7"
 			shape: "hexagon"
 			tasks: [{
@@ -1052,11 +1055,8 @@
 			y: 8.0d
 		}
 		{
-			dependencies: [
-				"5E829641B6FE96E5"
-				"7AF06CB391779388"
-			]
-			description: ["With these circuits, you have unlocked &aUIV&r, the pentultimate voltage. UIV circuits allow you to craft a variety of things to help improve and redefine your base as you push on."]
+			dependencies: ["5E829641B6FE96E5"]
+			description: ["With these circuits, you have unlocked &2UIV&r, the pentultimate voltage. UIV circuits allow you to craft a variety of things to help improve and redefine your base as you push on."]
 			id: "1B1D3A66B847D129"
 			shape: "hexagon"
 			tasks: [{
@@ -1073,7 +1073,7 @@
 				"0C9A9F33EEA3AB5E"
 				"4DED2A24CB1A56F5"
 			]
-			description: ["&6Monic Processor Mainframes&r are unique in that there are no subsquent circuit themes, and thus no other kinds of Tier Twelve circuits. Unlike past Mainframes, you will need to craft more than just a few of them."]
+			description: ["&6Monic Processor Mainframes&r are unique in that there are no subsquent circuit themes, and thus no other kinds of Tier Twelve circuits."]
 			id: "5601A05D8361551D"
 			shape: "hexagon"
 			subtitle: "The Final Circuit!"
@@ -1105,7 +1105,7 @@
 		}
 		{
 			dependencies: ["248ABB7F26EB72EE"]
-			description: ["Now with superconductors!"]
+			description: ["At this point, if you are not already using a &2Multiblock&r to perform your Circuit Assembler recipes, you really should be."]
 			id: "6F5BB99060FF03AC"
 			shape: "hexagon"
 			tasks: [{
@@ -1123,7 +1123,11 @@
 				"2D5677EA9F47AA83"
 				"44E2C12FC4C26CA9"
 			]
-			description: ["At this point, if you are not already using a &2Multiblock&r to perform your Circuit Assembler recipes, you really should be."]
+			description: [
+				"&9Matter Circuits&r and those that follow it are far more expensive than previous circuit themes, requiring silicon chips imbued with &6Hearts of A Universe&r."
+				""
+				"Don't let that discourage you, though. They unlock many useful tools to add to your factory."
+			]
 			id: "248ABB7F26EB72EE"
 			shape: "hexagon"
 			tasks: [{
@@ -1271,11 +1275,10 @@
 		}
 		{
 			dependencies: [
-				"4EA1E0D437528747"
 				"7E93D88827F83E1A"
-				"4DF92773C82F4AAC"
+				"0DE1BF1648CAF6D6"
 			]
-			description: ["An &6Infinity Ingot&r and &6The Ultimate Material&r are needed for these."]
+			description: ["These will be your first major use for &6Holmium&r."]
 			id: "5054D3FA7E96EB83"
 			shape: "hexagon"
 			tasks: [{
@@ -1288,11 +1291,8 @@
 			y: -8.5d
 		}
 		{
-			dependencies: [
-				"2343B68110805282"
-				"434142F777A2CCBE"
-			]
-			description: ["The final processing unit. These require &6Ultimate Gems&r."]
+			dependencies: ["434142F777A2CCBE"]
+			description: ["The final processing unit. These can chew through &6Holmium&r and &9Monium&r quite quickly, so make sure you can produce enough."]
 			id: "7979D07FBDC6D170"
 			shape: "hexagon"
 			tasks: [{
@@ -1509,7 +1509,7 @@
 				""
 				"As you'll realize is the pattern, it is expensive and unwieldy to make the first forms of each tier of circuits. Fortunately, you don't have to make many of them."
 				""
-				"Prioritize using these circuits to make things needed for unlocking the next theme of circuits, which require more infrastructure but are much cheaper to produce. Eventually each tier through nine will have a circuit recipe instead of requiring processors, arrays, or mainframes."
+				"Prioritize using these circuits to make things needed for unlocking the next theme of circuits, which require more infrastructure but are much cheaper to produce. Eventually each circuit tier through Tier Nine will have a Processor recipe instead of requiring Processor Assemblies, Supercomputers, or Mainframes."
 			]
 			id: "6169C04DF463502F"
 			rewards: [{
@@ -1927,7 +1927,7 @@
 		{
 			dependencies: ["2DD1E2391DA3170C"]
 			description: [
-				"The first and most expensive Tier Six Circuit, needed for crafting the &3IV Assembling Machine&r."
+				"The first and most expensive Tier Six Circuit, needed for crafting the &3IV Circuit Assembler&r."
 				""
 				"Requires a bunch of standard circuit components."
 			]
@@ -2101,7 +2101,7 @@
 			description: [
 				"Now you can craft the &6Quantum Processor Mainframe&r, the first Tier Seven circuit."
 				""
-				"These are required for crafting the Ludicrous Voltage (LuV) &3Assembling Machine&r."
+				"These are required for crafting the Ludicrous Voltage (LuV) &3Circuit Assembler&r."
 			]
 			id: "521977C7165229F1"
 			rewards: [{
@@ -2279,7 +2279,7 @@
 				""
 				"Along with things you already know how to make, this needs &6HSS-E Frames&r."
 				""
-				"These are required for crafting the &3ZPM Circuit Assembling Machine&r. As usual, these are extremely expensive: invest in the next theme of circuits instead of trying to mass-produce these."
+				"These are required for crafting the &3ZPM Circuit Assembler&r. As usual, these are extremely expensive: invest in the next theme of circuits instead of trying to mass-produce these."
 			]
 			id: "115B96B2092D671E"
 			rewards: [{
