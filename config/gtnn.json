@@ -8,7 +8,7 @@
     "enableHarderPlatinumLine": true,
     "enableHarderNaquadahLine": true,
     "banCreateFanBlasting": false,
-    "makesEMIBetter": true,
+    "makesEMIBetter": false,
     "skyblock": false,
     "gtOresMultiplyNum": 4.0,
     "timesOreVeins": 1
