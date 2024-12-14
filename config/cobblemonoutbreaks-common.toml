@@ -1,0 +1,54 @@
+#cobblemonoutbreaks Config
+#The world needs to be restarted when changing a value for it to apply
+#Turns the portal sound on or off when a pokemon is spawned in an outbreak
+outbreak_portal_spawn_sound = true
+#Time it takes for an outbreak to spawn around the player (in ticks 36000 being 30 minutes)
+#Range: 100 ~ 1728000
+outbreak_spawn_timer = 36000
+#Amount of outbreaks that spawn when the timer runs out, 0 spawns nothing
+#Range: 1 ~ 64
+outbreak_spawn_count = 3
+#If outbreaks should spawn rewards or not
+outbreak_spawn_rewards = true
+#Whether or not a message should be sent when an outbreak spawns, finishes and gets removed
+send_outbreak_portal_spawn_message = true
+#Turn particles on or off for the outbreak portal, this will make it easier to find them
+spawn_portal_particles = false
+#Whether or not the outbreaks should spawn in predetermined biomes
+biome_specific_spawns = true
+#A message that tells you what biome an outbreak is currently spawning in with their pokemon and if you expected this
+biome_specific_spawns_debug = false
+#Volume of the spawning sound of the outbreak portal
+#Range: 0.0 ~ 10.0
+outbreak_portal_spawn_volume = 1.0
+#Volume of the pokemon spawning sound of the outbreak portal
+#Range: 0.0 ~ 10.0
+outbreak_portal_pokemon_spawn_volume = 0.2
+#Time it takes for the map with outbreaks to flush through, every 6 hours
+#Range: 100 ~ 1728000
+outbreaks_flush_timer = 432000
+#Time it takes for the map with temporary outbreaks to flush through, every hour
+#Range: 100 ~ 1728000
+temp_outbreaks_flush_timer = 72000
+#Minumum spawn radius the portal can spawn around the player, minumum is 16, maximum is 48
+#Range: 16 ~ 48
+min_spawn_radius = 32
+#Maximum spawn radius the portal can spawn around the player, minumum is 49 maximum is 112
+#Range: 49 ~ 112
+max_spawn_radius = 64
+#Rarity for common outbreaks
+#Range: 1 ~ 1000
+common_outbreak_rarity = 40
+#Rarity for uncommon outbreaks
+#Range: 1 ~ 1000
+uncommon_outbreak_rarity = 30
+#Rarity for rare outbreaks
+#Range: 1 ~ 1000
+rare_outbreak_rarity = 20
+#Rarity for epic outbreaks
+#Range: 1 ~ 1000
+epic_outbreak_rarity = 8
+#Rarity for legendary outbreaks
+#Range: 1 ~ 1000
+legendary_outbreak_rarity = 2
+
