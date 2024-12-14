@@ -554,7 +554,7 @@ compat:
     # - BOTTOM_CENTER
     # - BOTTOM_LEFT
     # - LEFT_CENTER
-    buttonAnchor: TOP_LEFT
+    buttonAnchor: BOTTOM_LEFT
 
     # Which direction the buttons will go
     # Default: "HORIZONTAL"
