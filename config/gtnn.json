@@ -9,6 +9,8 @@
     "enableHarderNaquadahLine": true,
     "banCreateFanBlasting": false,
     "makesEMIBetter": false,
+    "isTurnOnEnderFluidCover": true,
+    "isTurnOnEnderItemCover": false,
     "skyblock": false,
     "gtOresMultiplyNum": 4.0,
     "timesOreVeins": 1
